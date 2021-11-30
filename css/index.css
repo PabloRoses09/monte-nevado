@@ -1,0 +1,169 @@
+:root{
+    --verde-agua: #42dca3;
+}
+@media all and (min-width: 0px) {
+    body{
+        font-family: 'Cabin', sans-serif;
+    }
+    body header{
+        background-image: url("../imagenes/intro-bg.jpg");
+        background-size: cover;
+        background-position: bottom;
+        height: 100vh;
+    }
+    .menu{
+        background-color: none;
+    }
+    .menu a{
+        padding-left: 10%;
+    }
+    .menu button{
+        margin-right: 10%;
+    }
+    .texto-central{
+        height: 100vh;
+        padding-bottom: 450px;
+    }
+    .texto-central div{
+        height: 40vh;        
+    }
+    .texto-central div h1{
+        font-size: 70px;
+    }
+    .texto-central div p{
+        font-size: 22px;
+    }
+    .header-container section div i{
+        font-size: 50px;
+    }
+    .descuento{
+        background-image: url("../imagenes/downloads-bg.jpg");
+        background-size: cover;
+        background-position: bottom;
+        height: 30vh;        
+    }
+    .descuento div{
+        max-width: 910px;
+    }
+    .descuento div h3{
+        font-size: 40px;
+    }
+    .descuento div p{
+        font-size: 18px;
+    }
+    .descuento div button p{
+        font-size: 20px;
+    }
+    .descuento div button{
+        height: 35px;
+        padding-top: 1px;
+        background-color: transparent;
+    }
+    .monte{
+        height: 80vh;
+        background-color: black;
+        color: white;
+    }
+    .monte div{
+        height: 25%;
+        max-width: 720px;
+        margin-bottom: 200px;
+    }
+    .monte h2{
+        font-size: 32px;
+    }
+    .monte p{
+        font-size: 18px;
+    }
+    .contacto{
+        height: 70vh;
+        background-color: black;
+    }
+    .contacto div{
+        height: 14vh;
+        max-width: 700px;
+    }
+    .contacto div div{
+        height: 40px;
+    }
+    .contacto div div div{
+        padding-top: 7px;
+        margin-right: 1.5vh;
+        border-style: solid;
+    }
+    .formulariocontacto{
+        background-color: black;
+        height: 60vh;
+    }
+    .formulariocontacto div{
+        height: 50vh;
+    }
+    .formulariocontacto div fieldset input{
+        border-style: none;
+        border-radius: 4px;
+        height: 35px;
+        color: transparent;
+    }
+    .formulariocontacto div fieldset input:hover{
+        color: black;
+    }
+    .formulariocontacto div fieldset h3{
+        font-size: 18px;
+        padding-top: 10px;
+        text-align: left;
+    }
+    .formulariocontacto div button{
+        height: 40px;
+        padding-top: 6px;
+    }
+    .formulariocontacto .moneda{
+        height: 100px;
+        text-align: left;
+    }
+    .formulariocontacto .moneda div{
+        height: 20px; 
+    }
+    .formulariocontacto .terminos{
+        height: 20px;
+        text-align: left;
+    }
+    .footer{
+        background-color: black;
+        height: 50px;
+    }
+    .footer a{
+        font-size: 14px;
+    }
+    /**Efectos**/
+    .verde-texto{
+        color: var(--verde-agua);
+    }
+    .efecto-verde{
+        border-style: solid;
+        border-color: var(--verde-agua);
+        border-width: 0.5px;
+        color: var(--verde-agua);
+        background-color: transparent;
+    }
+    .efecto-verde:hover{
+        border-style: none;
+        color: black;
+        background-color: var(--verde-agua);
+    }
+}
+@media all and (min-width: 540px) {
+    .texto-central div h1{
+        font-size: 100PX;
+    }
+}
+@media all and (min-width: 990px) {
+    .menu a{
+        padding-left: 10%;
+    }
+    .menu div{
+        padding-right: 17%;
+    }
+    .texto-central div{
+        max-width: 900px;
+    }
+}

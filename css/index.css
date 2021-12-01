@@ -9,7 +9,6 @@
         background-image: url("../imagenes/intro-bg.jpg");
         background-size: cover;
         background-position: bottom;
-        height: 100vh;
     }
     .menu{
         background-color: none;
@@ -36,11 +35,29 @@
     .header-container section div i{
         font-size: 50px;
     }
+    /**MONTE**/
+    .monte{
+        background-color: black;
+        color: white;
+        /*height: 100vh;*/
+    }
+    .monte div{
+        /*height: 100vh;*/
+        padding-bottom: 25%;
+    }
+    .monte h2{
+        padding-top: 8%;
+        font-size: 32px;
+    }
+    .monte p{
+        font-size: 18px;
+    }
+    /**DESCUENTO**/
     .descuento{
         background-image: url("../imagenes/downloads-bg.jpg");
         background-size: cover;
         background-position: bottom;
-        height: 30vh;        
+        height: 60vh;        
     }
     .descuento div{
         max-width: 910px;
@@ -59,49 +76,42 @@
         padding-top: 1px;
         background-color: transparent;
     }
-    .monte{
-        height: 80vh;
-        background-color: black;
-        color: white;
-    }
-    .monte div{
-        height: 25%;
-        max-width: 720px;
-        margin-bottom: 200px;
-    }
-    .monte h2{
-        font-size: 32px;
-    }
-    .monte p{
-        font-size: 18px;
-    }
+    /*-*CONTACTO*-*/
     .contacto{
-        height: 70vh;
+        height: 100vh;
         background-color: black;
     }
     .contacto div{
         height: 14vh;
         max-width: 700px;
+        margin-bottom: 50px;
     }
     .contacto div div{
         height: 40px;
     }
     .contacto div div div{
         padding-top: 7px;
-        margin-right: 1.5vh;
+        margin-right: 0vh;
         border-style: solid;
     }
+    .contacto div div div i{
+        font-size: 11px;
+    }
+    .contacto div div div a{
+        font-size: 11px;
+    }
+    /**FOMRULARIO**/
     .formulariocontacto{
         background-color: black;
-        height: 60vh;
+        height: 658px;
     }
     .formulariocontacto div{
-        height: 50vh;
+        height: 100%;
     }
     .formulariocontacto div fieldset input{
         border-style: none;
         border-radius: 4px;
-        height: 35px;
+        height: 30px;
         color: transparent;
     }
     .formulariocontacto div fieldset input:hover{
@@ -109,7 +119,7 @@
     }
     .formulariocontacto div fieldset h3{
         font-size: 18px;
-        padding-top: 10px;
+        padding-top: 0px;
         text-align: left;
     }
     .formulariocontacto div button{
@@ -129,7 +139,7 @@
     }
     .footer{
         background-color: black;
-        height: 50px;
+        height: 100px;
     }
     .footer a{
         font-size: 14px;
@@ -165,5 +175,48 @@
     }
     .texto-central div{
         max-width: 900px;
+    }
+    /**MONTE**/
+    .monte{
+        height: 80vh;
+    }
+    .monte div{
+        max-width: 720px;
+        margin-bottom: 200px;
+        height: 28vh;
+        padding-bottom: 0%;
+    }
+    .descuento{
+        height: 40vh;
+    }
+    /**CONTACTO*/
+    .contacto{
+        height: 80vh;
+    }
+    .contacto div{
+        margin-bottom: 0px;
+    }
+    .contacto div div div{
+        padding-right: 1.5vh;
+        margin-left: 1.5vh;
+    }
+    .contacto div div div i{
+        font-size: 18px;
+    }
+    .contacto div div div a{
+        font-size: 18px;
+    }
+    /**FORMULARIO**/
+    .formulariocontacto{
+        height: 80vh;
+    }
+    .formulariocontacto div{
+        height: 50vh;
+    }
+    .formulariocontacto div fieldset input{
+        height: 35px;
+    }
+    .formulariocontacto div fieldset h3{
+        padding-top: 10px;    
     }
 }
